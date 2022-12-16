@@ -1,71 +1,130 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
+    <link href="estilos.css" rel="stylesheet" > <!--instead of naming the file .css from the begining, make it a css file from the "select language mode" menu!! Otherwise it will be a file named "styless.css.css", and that throws and error!!-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cheesecakes</title>
 </head>
-<body>
-    <h1>El mejor Cheesecake no es sólo uno!</h1> 
+<body> 
+    <div class="container-header">
+    <header class="header-page-name">Mundo dulce</header> 
+    </div>
+        <div class="container-nav">
+            <nav>
+                <ul class="ul-nav">
+                        <li class="li-nav"><a href="#" target="_blank" class="a-nav">Recetas</a></li>
+                        <li class="li-nav"><a href="#" target="_blank" class="a-nav">Productos</a></li>
+                        <li class="li-nav"><a href="#" target="_blank" class="a-nav">Nosotros</a></li>
+                </ul>
+             </nav>
+        </div>
+<main>
 <audio controls loop>
-    <source src="./audio/themoon.mp3" class="audio" type="audio/mpeg">
+        <source src="./audio/themoon.mp3" class="audio" type="audio/mpeg">
 </audio>
-    <h2>Un postre con lo justo.</h2>
-        
-    <p>Como su nombre lo indica, el principal ingrediente del Cheesecake es el queso, que lo vuelve un postre ideal para quienes les gusta lo dulce <i>"pero hasta ahí".</i></p>
-    <img src="https://static.onecms.io/wp-content/uploads/sites/21/2015/02/11/cheesecake-facil-con-leche-condensada-2000.jpg" style="width: 500px;"/>  
-    <p>Tipos de Cheesecakes hay muchos, pero en esta ocación vamos a aprender a preparar su versión mas tradicional</p>
-   
+
+<div class="main-presentation">
+    <section class="intro">
+        <div class="art-titles">
+        <h1>El mejor Cheesecake no es sólo uno!</h1> 
+            <h2 class="second-title">Un postre con lo justo.</h2>  
+        </div>
+                <p class="intro1-1">Como su nombre lo indica, el principal ingrediente del Cheesecake es el queso, que lo vuelve un postre ideal para quienes les gusta lo dulce <i>"pero hasta ahí".</i></p>
+            <div class="main-image-box">
+                <img src="https://static.onecms.io/wp-content/uploads/sites/21/2015/02/11/cheesecake-facil-con-leche-condensada-2000.jpg" class="main-image" /> 
+            </div> 
+                <p class="intro1-2">Tipos de Cheesecakes hay muchos, pero en esta ocación vamos a aprender a preparar su versión mas tradicional.</p>
+
     <h3>Ingredientes</h3>
-    
-    <h4>Para la base</h4>
-    <ul>
-        <li>Galletitas 250 Gr.</li>
-        <li>Manteca fundida 100 Gr.</li>
-    </ul>
+        <div class="cont-recipe-1">
+        <h4>Para la base</h4>
+            <ul class="ul-recipe">
+                <li class="li-recipe">Galletitas 250 Gr.</li>
+                    <li class="li-recipe">Manteca fundida 100 Gr.</li>
+            </ul>
+        </div>
    
-    <h4>Para el relleno</h4>
-    <ul>
-        <li>Queso Crema 700 Gr. frío</li>
-        <li>Azúcar impalpable 100 Gr.</li>
-        <li>Crema de Leche 300 Gr. fría</li>
-        <li>Escencia de Vainilla 1 Cda.</li>
-        <li>Ralladura de un Limón.</li>
-        <li>Jugo de medio Limón 1 Cda.</li>
-    </ul>
+        <h4>Para el relleno</h4>
+            <div class="cont-recipe-2">
+            <ul class="ul-recipe">
+                <li class="li-recipe">Queso Crema 700 Gr. frío</li>
+                <li class="li-recipe">Azúcar impalpable 100 Gr.</li>
+                <li class="li-recipe">Crema de Leche 300 Gr. fría</li>
+                <li class="li-recipe">Escencia de Vainilla 1 Cda.</li>
+                <li class="li-recipe">Ralladura de un Limón.</li>
+                <li class="li-recipe">Jugo de medio Limón 1 Cda.</li>
+            </ul>
+            </div>
  
     <h4>Para la cobertura</h4>
-    <ul>
-        <li>Frutos Rojos 400 Gr. (frutillas, arándanos, frambuesas)</li>
-        <li>Azúcar 100 Gr.</li>
-    </ul>
+    <div class="cont-recipe-3">
+        <ul class="ul-recipe">
+            <li class="li-recipe">Frutos Rojos 400 Gr. (frutillas, arándanos, frambuesas)</li>
+            <li class="li-recipe">Azúcar 100 Gr.</li>
+        </ul>
+    </div>
 
     <br>
-    <h3>Paso a paso</h3>
-    <h4>Para la base</h4>
-    <ul>
-        <li>Añadimos la manteca en un bowl. La tapamos y mandamos al microondas hasta que se derrita.</li>
-        <li>Molemos las galletitas en una procesadora. Añadimos la manteca y la integramos a la mezcla con la procesadora.</li>
-        <li>Transferimos la mezcla a un molde para tortas redondo y la presionamos con las manos hasta que quede pareja y compacta.</li>
-        <li>Dejamos la base en la heladera hasta que tengamos el relleno.</li>
-    </ul>
-    <h4>Para el relleno</h4>
-    <ul>
-        <li>Con una batidora batimos el queso crema, la ralladura de limón y el jugo, el azúcar impalpable y unas gotitas de escencia de vainilla hasta que quede una mezcla pareja.</li>
-        <li>Añadimos la crema de leche y batimos hasta que la mezcla quede esponjosa.</li>
-        <li>Sacamos la base de la heladera y vertimos el relleno, emparejando bien con una cuchara.</li>
-        <li>Ponemos el cheesecake en la heladera y lo dejamos por unas 2-3 horas hasta que se enfríe completamente.</li>
-    </ul>
-    <h4>Para la cobertura</h4>
-    <ul>
-        <li>Lavamos los frutos rojos a elección y los dejamos en un bowl.</li>
-        <li>Añadimos azúcar y aplastamos los frutos hasta que el azúcar se haya disuelto completamente.</li>
-    </ul>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4vjnK8RffbU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br>
-<p>Si preguntas por el origen del cheesecake, muchos te van a decir que está en Atenas, Grecia. El postre figura en varios escritos de la antigüedad.</p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100620.83687578104!2d23.69696837919779!3d37.99110258367019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bd1f067043f1%3A0x2736354576668ddd!2sAtenas%2C%20Grecia!5e0!3m2!1ses!2sar!4v1666386866938!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <h3>Paso a paso</h3>
+        <h4>Para la base</h4>
+            <div class="cont-pasos-1">
+            <ul class="ul-recipe">
+                <li class="li-recipe">Añadimos la manteca en un bowl. La tapamos y mandamos al microondas hasta que se derrita.</li>
+                <li class="li-recipe">Molemos las galletitas en una procesadora. Añadimos la manteca y la integramos a la mezcla con la procesadora.</li>
+                <li class="li-recipe">Transferimos la mezcla a un molde para tortas redondo y la presionamos con las manos hasta que quede pareja y compacta.</li>
+                <li class="li-recipe">Dejamos la base en la heladera hasta que tengamos el relleno.</li>
+            </ul>
+            </div>
+    <h4>Para el relleno</h4>
+    <div class="cont-pasos-2">
+        <ul class="ul-recipe">
+            <li class="li-recipe">Con una batidora batimos el queso crema, la ralladura de limón y el jugo, el azúcar impalpable y unas gotitas de escencia de vainilla hasta que quede una mezcla pareja.</li>
+            <li class="li-recipe">Añadimos la crema de leche y batimos hasta que la mezcla quede esponjosa.</li>
+            <li class="li-recipe">Sacamos la base de la heladera y vertimos el relleno, emparejando bien con una cuchara.</li>
+            <li class="li-recipe">Ponemos el cheesecake en la heladera y lo dejamos por unas 2-3 horas hasta que se enfríe completamente.</li>
+        </ul>
+    </div>
+    <h4>Para la cobertura</h4>
+        <div class="cont-pasos-3">
+        <ul class="ul-recipe">
+            <li class="li-recipe">Lavamos los frutos rojos a elección y los dejamos en un bowl.</li>
+            <li class="li-recipe">Añadimos azúcar y aplastamos los frutos hasta que el azúcar se haya disuelto completamente.</li>
+        </ul>
+        </div>
+
+        <p class="texto-video">Video con la receta</p>
+    <div class="container-vid">
+        <iframe class="video" src="https://www.youtube.com/embed/4vjnK8RffbU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+        <p class="texto-mapa">Si preguntas por el origen del cheesecake, muchos te van a decir que está en Atenas, Grecia. El postre figura en varios escritos de la antigüedad.</p>
+    <div class="container-map">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100620.83687578104!2d23.69696837919779!3d37.99110258367019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bd1f067043f1%3A0x2736354576668ddd!2sAtenas%2C%20Grecia!5e0!3m2!1ses!2sar!4v1666386866938!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    </section>
+
+    <aside>
+        <h3>Aside</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h3>Numeros</h3>
+            <ul>
+                <li>uno</li>
+                <li>dos</li>
+                <li>tres</li>
+            </ul>
+    </aside>
+</div>
+</main>
+
+<footer>
+    <a href="https://www.instagram.com" title="Instagram page" alt="Instagram icon" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" class="socials"/> </a>
+    <a href="https://www.youtube.com" title="YouTube page" alt="YouTube icon" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/87/87421.png" class="socials"/> </a>
+    <a href="https://twitter.com" title="Twitter page" alt="Twitter icon" target="_blank"><img src="https://www.pngkey.com/png/full/7-78730_white-twitter-logo-png-twitter-icon-png.png" class="socials"/> </a>
+    <a href="https://github.com" title="Github page" alt="Github icon" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111612.png" class="socials"/> </a> <!--linkear a mi perfil de github-->
+    <a href="https://api.whatsapp.com/send phone=13426129440&text=Hola" title="Whatsapp chat" alt="Whatsapp icon" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/154/154858.png" class="socials"/> </a>
+</footer>
+
 </body>
 </html>
